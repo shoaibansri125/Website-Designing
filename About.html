@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Univefsity WebsiteDesign - Easy Totorials</title>
+</head>
+<body>
+<section class="header" style="min-height: 80vh; width: 100%; background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(IMG-20240911-WA0000.jpg);background-position: center;background-size: cover;position: relative;">
+<nav>
+<a href="index.html"><img src="logo.png" alt=""></a>
+<div class="nav-links" id="navlinks">
+<i class="fa fa-times" onclick="hideMinu()"></i>
+<ul>
+<li ><a href="universel.html">HOME</a></li>
+<li ><a href="About.html">ABOUT</a></li>
+<li ><a href="Courses.html">COURSE</a></li>
+<li ><a href="Blog.html">BLOG</a></li>
+<li><a href="Contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars"onclick="showMinu()"></i>
+</nav>
+<div class="text-box">
+<h1 style="margin-top: 100px;">About</h1>
+</div>
+</section>
+<!-- ---------display---------- -->
+<section class="display">
+<div class="btr">
+<h1>We are world's largest <br> university</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, iure Lorem ipsum. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam iure voluptatem Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut sapiente deserunt. <br>Lorem ipsum, dolor sit amet consectetur</p>
+<a href="" class="hero-btn" style="border: 1px solid rgb(236, 89, 89); margin-top: 30px; color: #f80a0a;font-weight: bold;">Visit Us To Know More</a>
+</div>
+<img src="Business-People.jpg" alt="">
+</section>
+<!-- ---------footer------------ -->
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.pellentesque aliquet turpis nulla , eleifend faucibus est <br> sollicituden ut . meacenas ut venenatis ex, et dapibus purus,</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-whatsapp"></i>
+</div>
+<p>Made With <i class="fa fa-heart"></i> shoaib ansari</p>
+</section>
+<script>
+var navlinks =document.getElementById("navlinks")
+function showMinu(){
+navlinks.style.right="0";
+
+}
+function hideMinu(){
+navlinks.style.right="-200px";
+
+}
+</script>
+</body>
+</html>

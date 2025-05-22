@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Univefsity WebsiteDesign - Easy Totorials</title>
+</head>
+<body>
+<section class="header" style="min-height: 80vh; width: 100%; background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(IMG-20240911-WA0000.jpg);background-position: center;background-size: cover;position: relative;">
+<nav>
+<a href="index.html"><img src="logo.png" alt=""></a>
+<div class="nav-links" id="navlinks">
+<i class="fa fa-times" onclick="hideMinu()"></i>
+<ul>
+<li><a href="universel.html">HOME</a></li>
+<li><a href="About.html">ABOUT</a></li>
+<li><a href="Courses.html">COURSE</a></li>
+<li><a href="Blog.html">BLOG</a></li>
+<li><a href="Contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars"onclick="showMinu()"></i>
+</nav>
+<div class="text-box">
+<h1 style="margin-top: 100px;">Our Courses</h1>
+</div>
+</section>
+<!-- -----Course----- -->
+<section class="course">
+<h1>Course We Offer</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+<div class="row">
+<div class="course-col">
+<h3>Intermediate</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+molestiae! Illo impedit cupiditate assumenda commodi distinctio, blanditiis doloribus dolor.</p>
+</div>
+<div class="course-col">
+<h3>Degree</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+molestiae! Illo impedit cupiditate assumenda commodi distinctio, blanditiis doloribus dolor.</p>
+</div>
+<div class="course-col">
+<h3>Post Graduation</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reprehenderit quibusdam rem laborum quae, accusantium nisi asperiores.</p>
+</div>
+</div>
+</section>
+<!-- -----facilities----- -->
+<section class="facilities">
+<h1>Our Facilities</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="row">
+<div class="facilities-col">
+<img src="640655.jpg" alt="">
+<h3>World Class Laibrary</h3>
+<p>lorem ipsum dolor sit amet . consectetur adipiscing elit.
+pellentesque aliquet turpis nulla.
+</p>
+</div>
+<div class="facilities-col">
+<img src="640655.jpg" alt="">
+<h3>Largest Play Ground</h3>
+<p>lorem ipsum dolor sit amet . consectetur adipiscing elit.
+pellentesque aliquet turpis nulla.
+</p>
+</div>
+<div class="facilities-col">
+<img src="640655.jpg" alt="">
+<h3>football-png</h3>
+<p>lorem ipsum dolor sit amet . consectetur adipiscing elit.
+pellentesque aliquet turpis nulla.
+</p>
+</div>
+</div>
+</section>
+<!-- ---------footer------------ -->
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.pellentesque aliquet turpis nulla , eleifend faucibus est <br> sollicituden ut . meacenas ut venenatis ex, et dapibus purus,</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-whatsapp"></i>
+</div>
+<p>Made With <i class="fa fa-heart"></i> shoaib ansari</p>
+</section>
+<script>
+var navlinks =document.getElementById("navlinks")
+function showMinu(){
+navlinks.style.right="0";
+
+}
+function hideMinu(){
+navlinks.style.right="-200px";
+
+}
+</script>
+</body>
+</html>
